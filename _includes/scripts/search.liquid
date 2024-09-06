@@ -97,25 +97,6 @@
           },
         },
       {%- endfor -%}
-      {%- assign news = site.news | reverse -%}
-      {%- for item in news -%}
-        {
-          {%- if item.inline -%}
-            {%- assign title = item.content | remove: '<p>' | remove: '</p>' | escape | strip -%}
-          {%- else -%}
-            {%- assign title = item.title | escape -%}
-          {%- endif -%}
-          id: "news-{{ title | slugify }}",
-          title: '{{ title | emojify }}',
-          description: "{{ item.description | strip_html | strip_newlines | escape }}",
-          section: "News",
-          {%- unless item.inline -%}
-            handler: () => {
-              window.location.href = "{{ item.url | relative_url }}";
-            },
-          {%- endunless -%}
-        },
-      {%- endfor -%}
       {%- for collection in site.collections -%}
         {%- if collection.label != 'news' and collection.label != 'posts' -%}
           {%- for item in collection.docs -%}
@@ -137,6 +118,25 @@
             },
           {%- endfor -%}
         {%- endif -%}
+      {%- endfor -%}
+      {%- assign news = site.news | reverse -%}
+      {%- for item in news -%}
+        {
+          {%- if item.inline -%}
+            {%- assign title = item.content | remove: '<p>' | remove: '</p>' | escape | strip -%}
+          {%- else -%}
+            {%- assign title = item.title | escape -%}
+          {%- endif -%}
+          id: "news-{{ title | slugify }}",
+          title: '{{ title | emojify }}',
+          description: "{{ item.description | strip_html | strip_newlines | escape }}",
+          section: "News",
+          {%- unless item.inline -%}
+            handler: () => {
+              window.location.href = "{{ item.url | relative_url }}";
+            },
+          {%- endunless -%}
+        },
       {%- endfor -%}
       {%- if site.socials_in_search -%}
         {%- if site.email -%}
