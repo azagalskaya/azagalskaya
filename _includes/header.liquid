@@ -26,12 +26,14 @@
           <div class="navbar-brand social">{% include social.liquid %}</div>
         {% endif %}
       {% endcomment %}
+      {% if page.permalink != '/' %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
         {% comment %}
           <img class="card-img" src="/assets/img/logo.jpg" style="width: 60px; height: 60px" alt="image">
         {% endcomment %}
         ccML | <span style="color:#828282; font-size:16px; font-weight:normal">UMass Amherst</span>
       </a>
+      {% endif %}
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"

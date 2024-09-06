@@ -1,12 +1,17 @@
 ---
-layout: page
+layout: research
 title: Research
 permalink: /research/
+subtitle: 
 description: On broader impact, we aim to address the sustainability goals, which include zero hunger (goal 2), clean energy (goal 7) and climate action (goal 13). Our main goal is to accelerate the transition from a current state of environmental challenges to a more sustainable future.
 nav: true
 nav_order: 1
 display_categories: [current] # [work, fun]
 horizontal: false
+
+profile:
+  image: research.png
+  width: 200px
 ---
 
 <!-- pages/projects.md -->
