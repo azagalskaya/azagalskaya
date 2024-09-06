@@ -4,7 +4,7 @@ title: Home
 permalink: /
 subtitle: <a href='https://www.umass.edu/engineering/chemical-engineering'>University of Massachusetts Amherst</a>
 
-profile: 
+profile:
   image: home.png
   width: 100px
 news: false # includes a list of news items
