@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-permalink: /
+permalink: /home/
 subtitle: <a href='https://www.umass.edu/engineering/chemical-engineering'>University of Massachusetts Amherst</a>
 
 profile:
