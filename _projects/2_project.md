@@ -4,12 +4,12 @@ title: Controlling the selectivity in competing electrochemical reactions
 description:
 img: assets/img/research2.png
 importance: 2
-category: current
+category: Current
 related_publications: false
 ---
 
 <div class="row justify-content-center">
-    <div class="col-8 mt-3 mt-md-0">
+    <div class="col-md-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/research2.png" class="img-fluid rounded" %}
     </div>
 </div>
