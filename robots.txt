@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://payal97.github.io/payal97//sitemap.xml
+Sitemap: https://azagalskaya.github.io/azagalskaya//sitemap.xml
