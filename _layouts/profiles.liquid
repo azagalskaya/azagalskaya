@@ -14,7 +14,7 @@ layout: default
           {% if profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'z-depth-1 rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
@@ -36,11 +36,47 @@ layout: default
     {% endfor %}
   {% endif %}
   <p></p>
-  {% if page.profiles %}
+
+  {% if page.postdoc %}
     <div class="post-header">
-      <h4 class="post-title">Group Members</h4>
+      <h4 class="post-title">Postdoctoral Researchers</h4>
     </div>
-    {% for profile in page.profiles %}
+    <hr>
+    {% comment %}
+      {% for profile in page.postdoc %}
+        <hr>
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+        30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if profile.content %}
+              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+              {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endcomment %}
+  {% endif %}
+  <p></p>
+
+  {% if page.grad %}
+    <div class="post-header">
+      <h4 class="post-title">Graduate students</h4>
+    </div>
+    {% for profile in page.grad %}
       <hr>
       <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if profile.image %}
@@ -58,17 +94,47 @@ layout: default
 
       <div class="clearfix">
         {% if profile.content %}
-          {% comment %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% endcomment %}
-
+          {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+          {{ profile_content | markdownify }}
         {% else %}
           {{ content }}
         {% endif %}
       </div>
     {% endfor %}
   {% endif %}
+  <p></p>
+
+  {% if page.undergrad %}
+    <div class="post-header">
+      <h4 class="post-title">Undergraduate students</h4>
+    </div>
+    {% for profile in page.undergrad %}
+      <hr>
+      <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if profile.image %}
+          {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+          {% if profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+        {% endif %}
+      </div>
+
+      <div class="clearfix">
+        {% if profile.content %}
+          {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+          {{ profile_content | markdownify }}
+        {% else %}
+          {{ content }}
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% endif %}
+  <p></p>
 
   {% if page.related_publications %}
     <h2>References</h2>
