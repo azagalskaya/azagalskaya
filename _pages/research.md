@@ -3,15 +3,16 @@ layout: research
 title: Research
 permalink: /research/
 subtitle:
-description: On broader impact, we aim to address the sustainability goals, which include zero hunger (goal 2), clean energy (goal 7) and climate action (goal 13). Our main goal is to accelerate the transition from a current state of environmental challenges to a more sustainable future.
+description: Electrochemical energy conversion and storage are crucial for the advancement of future renewable energy technologies. Enhancing energy efficiency requires optimizing the performance and durability of electrochemical systems, especially at the interfaces where electrocatalytic reactions take place. However, predicting and controlling these interfaces remain a grand challenge due to their structural and chemical complexities, especially under working conditions. Through the integration of cutting-edge modeling techniques, our research targets the development of advanced models to capture realistic behavior of the electrochemical interfaces and bridge the gap between theory and experimental observations for rational design of electrocatalytic systems. In a broader context, our work contributes to sustainability goals, including zero hunger, clean energy, and climate action, with the goal of accelerating the transition from today's environmental challenges to a more sustainable future.
 nav: true
 nav_order: 1
 display_categories: [Current] # [work, fun]
 horizontal: false
 
 profile:
-  image: research.png
+  image: research-home.png
   width: 200px
+  image_circular: true
 ---
 
 <!-- pages/projects.md -->
