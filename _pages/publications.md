@@ -10,8 +10,8 @@ nav_order: 3
 <!-- _pages/publications.md -->
 <div class="publications">
 
-  <a href="https://scholar.google.com/citations?user=4Us8qGQAAAAJ&hl=en">Google Scholar</a>
+<a href="https://scholar.google.com/citations?user=4Us8qGQAAAAJ&hl=en">Google Scholar</a>
 
-  {% bibliography %}
+{% bibliography %}
 
 </div>
