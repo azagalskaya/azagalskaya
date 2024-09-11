@@ -5,5 +5,3 @@ University of Massachusetts Amherst
 
 Postdoc: Quantum Simulation Group, Lawrence Livermore National Laboratory (LLNL), 2022-2024 \
 PhD: University of Nebraska-Lincoln, 2022
-
-Highly motivated individuals are encouraged to send their CV to Alexandra and inquire about available positions.
