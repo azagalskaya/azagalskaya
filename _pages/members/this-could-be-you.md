@@ -1,0 +1,1 @@
+Prospective graduate students interested in joining our lab should first apply to the [Chemical Engineering program](https://www.umass.edu/engineering/chemical-engineering#degree-list) at UMass Amherst.
