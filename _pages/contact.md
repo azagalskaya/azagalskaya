@@ -11,7 +11,7 @@ nav_order: 5
 **Alexandra Zagalskaya** \
 **Email**: [azagalskaya@umass.edu](mailto:azagalskaya@umass.edu)
 
-**Work address:** \
+**Office:** \
 267 Goessmann Laboratory \
 Department of Chemical Engineering \
 University of Massachusetts Amherst \
