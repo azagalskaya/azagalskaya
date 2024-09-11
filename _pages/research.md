@@ -11,7 +11,7 @@ horizontal: false
 
 profile:
   image: research-home.png
-  width: 260px
+  width: 340px
   image_circular: true
 ---
 
