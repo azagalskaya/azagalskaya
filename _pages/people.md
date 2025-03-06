@@ -23,6 +23,11 @@ grad:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
+    image: darshan-ahire.jpeg
+    content: members/darshan-ahire.md
+
+
+  - align: left
     image: this-could-be-you.jpg
     content: members/this-could-be-you.md
 
@@ -30,6 +35,6 @@ undergrad:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    #  image: this-could-be-you.jpg
-    content: members/postdoc.md
+    image: sze-nga-wong.jpeg
+    content: members/sze-nga-wong.md
 ---
