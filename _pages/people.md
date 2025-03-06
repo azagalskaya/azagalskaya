@@ -26,7 +26,6 @@ grad:
     image: darshan-ahire.jpeg
     content: members/darshan-ahire.md
 
-
   - align: left
     image: this-could-be-you.jpg
     content: members/this-could-be-you.md
