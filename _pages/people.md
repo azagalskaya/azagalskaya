@@ -16,8 +16,8 @@ postdoc:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    #  image: this-could-be-you.jpg
-    content: members/postdoc.md
+    image: shubham-chatterjee.jpg
+    content: members/shubham-chatterjee.md
 
 grad:
   # if you want to include more than one profile, just replicate the following block
@@ -27,6 +27,14 @@ grad:
     content: members/darshan-ahire.md
 
   - align: left
+    image: anthony-valentine.jpg
+    content: members/anthony-valentine.md
+
+  - align: left
+    image: shriya-varanasi.png
+    content: members/shriya-varanasi.md
+
+  - align: left
     image: this-could-be-you.jpg
     content: members/this-could-be-you.md
 
@@ -34,6 +42,6 @@ undergrad:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    image: sze-nga-wong.jpeg
+    # image: sze-nga-wong.jpeg
     content: members/sze-nga-wong.md
 ---
