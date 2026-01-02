@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://azagalskaya.github.io/azagalskaya//sitemap.xml
+Sitemap: https://www.azagalskaya.com/azagalskaya//sitemap.xml
