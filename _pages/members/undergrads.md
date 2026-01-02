@@ -3,7 +3,7 @@ Lindsey Barbella (ChemE, junior) \
 Sarah Aumueller (ChemE, junior) \
 Brianna Lemisch (Biology, junior) \
 Colin Willits (ChemE, sophomore) \
-Daniel Imasuen (ChemE, sophomore) \
+Daniel Imasuen (ChemE, sophomore)
 
 **Spring 2025** \
 Lindsey Barbella (ChemE, sophomore) \
