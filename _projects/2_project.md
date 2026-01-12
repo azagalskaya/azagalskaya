@@ -2,7 +2,7 @@
 layout: page
 title: Controlling the selectivity in competing electrochemical reactions
 description:
-img: assets/img/research2-ext.png
+img: assets/img/research2-ext.webp
 importance: 2
 category: Current
 related_publications: false

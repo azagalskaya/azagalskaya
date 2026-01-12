@@ -2,7 +2,7 @@
 layout: page
 title: Development of efficient polymeric functional materials
 description:
-img: assets/img/research3.png
+img: assets/img/research3.webp
 importance: 3
 category: Current
 related_publications: false

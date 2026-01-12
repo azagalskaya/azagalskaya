@@ -2,7 +2,7 @@
 layout: page
 title: Accelerated discovery of electrode-electrolyte interfaces under operating conditions
 description:
-img: assets/img/research1-ext.png
+img: assets/img/research1-ext.webp
 importance: 1
 category: Current
 related_publications: false

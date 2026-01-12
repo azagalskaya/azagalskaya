@@ -10,7 +10,7 @@ display_categories: [Current] # [work, fun]
 horizontal: false
 
 profile:
-  image: research-home.png
+  image: research-home.webp
   width: 340px
   image_circular: true
 ---
