@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="row justify-content-center">
   <div class="col-md-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/research1.png" class="img-fluid rounded" %}
+    {% include figure.liquid loading="eager" path="assets/img/research1.webp" class="img-fluid rounded" %}
   </div>
 </div>
 
