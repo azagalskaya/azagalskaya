@@ -19,6 +19,10 @@ postdoc:
     image: shubham-chatterjee.jpg
     content: members/shubham-chatterjee.md
 
+  - align: left
+    image: atish-ghosh.jpg
+    content: members/atish-ghosh.md
+
 grad:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
